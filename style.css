@@ -1,0 +1,19 @@
+*{
+box-sizing: border-box;
+}
+body{
+    font-family:"Trirong",sans-serif ;
+    background:linear-gradient(to bottom right,rgb(0, 238, 255),rgba(64, 250, 148, 0.603),rgba(255, 112, 236, 0.363),rgba(255, 48, 65, 0.651));
+    background-size:cover;
+    background-attachment:fixed;
+
+    
+}
+.title{
+    color:white ;
+text-align: center;
+text-shadow: 0 0 2px blue,0 0 15px purple;
+}
+.math{
+    margin-left :20px ;
+}
