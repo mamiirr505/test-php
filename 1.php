@@ -8,28 +8,19 @@
     <title>Document</title>
 </head>
 <body>
+   
     <h1 class="title">
         <?php
     echo "Php Math Test";
     ?>
+   
     </h1>
-    <p class=math>
-    <?php
-echo "pi =" ." ".(pi());
-echo "<br>";
-echo (min(100 ,50,170,200,151,2,8,90,40,300,-100,-6,32));
-echo "<br>";
-echo (max(100 ,50,170,200,151,2,8,90,40,300,-100,-6,32));
-echo "<br>";
-echo (abs(-6));
-echo "<br>";
-echo (sqrt(121));
-echo "<br>";
-echo (round(0.60))." ".(round(.49));
-echo "<br>";
-echo (rand(-1000,1000));
-?>
-    </p>
+    <p>answer the question:whitch number is the biggest one?(1 , 100 , -200,-5,300,-1000,550,40,-60,5)</p>
+<form class="form" action="2.php" method="post">
+    <input id="num" name="num" required type="number" class="answer"><br>
+<button onclick="fun(),answer()">submit</button>
+</form>
+
 </body>
 </html>
 

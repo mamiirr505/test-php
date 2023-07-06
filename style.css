@@ -1,9 +1,22 @@
 *{
-box-sizing: border-box;
+    box-sizing: border-box;
 }
+h1{
+    color:white ;
+    text-align: center;
+text-shadow: 0 0 2px blue,0 0 15px purple;
+}
+div{
+    text-align: center;
+    font-size: 30px;
+}
+p{
+    color: white;
+}
+
 body{
     font-family:"Trirong",sans-serif ;
-    background:linear-gradient(to bottom right,rgb(0, 238, 255),rgba(64, 250, 148, 0.603),rgba(255, 112, 236, 0.363),rgba(255, 48, 65, 0.651));
+    background:rgba(22, 22, 22, 0.87);
     background-size:cover;
     background-attachment:fixed;
 
@@ -16,4 +29,16 @@ text-shadow: 0 0 2px blue,0 0 15px purple;
 }
 .math{
     margin-left :20px ;
+}
+.answer{
+    color: rgb(0, 0, 0);
+    background-color: rgb(245, 245, 245);
+}
+.form{
+    padding: 30px;
+    border: 1px solid white;
+    text-align: center;
+    margin: auto;
+    margin-top: 40px;
+    width: 400px;
 }
